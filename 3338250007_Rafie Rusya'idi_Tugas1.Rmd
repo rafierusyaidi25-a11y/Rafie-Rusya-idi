@@ -1,0 +1,61 @@
+---
+title: "3338250007_Rafie Rusya'idi_Tugas1"
+output: html_document
+date: "2026-09-09"
+---
+
+```{r setup, include=FALSE}
+#SOAL 1
+
+v_num <- c(2.3,4.1,1.2,3.5)
+v_int <- c(2L,3L,5L)
+v_log <- c(T,F,T,T,T,F,F,T)
+v_char <- c("m","u","t","i","a","r","a")
+v_num
+v_int
+v_log
+v_char
+
+#SOAL 2 DAN 3
+
+m <- matrix(32:48,4,4,T)
+a <- array(32:48, dim = c(2,2,2,2))
+m
+a
+
+#SOAL 4
+
+df <- data.frame(
+  nama = c("tia","fauziah","farlan","fika"),
+  nilai = c(89,93,65,82),
+  lulus = c(T,T,F,T),
+  tidak_lulus = c(F,F,T,F)
+)
+df
+
+#SOAL 5
+
+L <- list(
+  v_b = c(1,2,3,4),
+  v_k = matrix(1:4),
+  m = matrix(32:48,4,4,T),
+  df = data.frame(
+    nama = c("tia","fauziah","farlan","fika"),
+    nilai = c(89,93,65,82),
+    lulus = c(T,T,F,T),
+    tidak_lulus = c(F,F,T,F)
+  ),
+  list4 = list(
+    m = matrix(32:48,4,4,T),
+    a = array(32:48, dim = c(2,2,2,2)),
+    df = data.frame(
+      nama = c("tia","fauziah","farlan","fika"),
+      nilai = c(89,93,65,82),
+      lulus = c(T,T,F,T),
+      tidak_lulus = c(F,F,T,F)
+    ),
+    v_b = c(1,2,3,4)
+  )
+)
+L
+```
